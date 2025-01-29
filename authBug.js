@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not trigger as expected if the user's session is unexpectedly terminated due to issues with network connectivity or Firebase server-side problems. This can lead to a race condition where parts of your application assume the user is authenticated when they are not.
